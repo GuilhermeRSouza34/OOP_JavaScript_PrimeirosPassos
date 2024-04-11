@@ -33,3 +33,21 @@ const carro2 = new carro('Ka','Ford', 2021, 2020);
 
 console.log(carro1);
 console.log(carro2);
+
+const nome = "Guilherme"
+const idade = 20
+const ehMaiorDeIdade = true
+const conhecimentos = ["HTML","CSS","JS"]
+
+const pessoa = {
+    nome,
+    idade,
+    ehMaiorDeIdade,
+    conhecimentos
+}
+
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof ehMaiorDeIdade);
+console.log(typeof conhecimentos);
+console.log(typeof pessoa);

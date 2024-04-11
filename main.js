@@ -30,3 +30,6 @@ function carro(modelo,fabricante,anoModelo,anoFabricacao) {
 
 const carro1 = new carro('Fiesta','Ford',2020,2019);
 const carro2 = new carro('Ka','Ford', 2021, 2020);
+
+console.log(carro1);
+console.log(carro2);

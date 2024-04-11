@@ -40,10 +40,10 @@ const ehMaiorDeIdade = true
 const conhecimentos = ["HTML","CSS","JS"]
 
 const pessoa = {
-    nome,
-    idade,
-    ehMaiorDeIdade,
-    conhecimentos
+    nome: nome,
+    idade: idade,
+    ehMaiorDeIdade: ehMaiorDeIdade,
+    conhecimentos: conhecimentos
 }
 
 console.log(typeof nome);

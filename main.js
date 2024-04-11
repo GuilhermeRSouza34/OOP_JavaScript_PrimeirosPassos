@@ -53,5 +53,5 @@ console.log(typeof conhecimentos);
 console.log(typeof pessoa);
 console.log(typeof carro1);
 
-console.log(carro1 instanceof Carro)
+console.log(carro1 instanceof carro)
 console.log(conhecimentos instanceof Array)

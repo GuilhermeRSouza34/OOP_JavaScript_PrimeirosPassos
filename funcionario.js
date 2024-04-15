@@ -6,10 +6,8 @@ function Pessoa(nome) {
 }
 
 function Funcionario(nome, cargo, salario) {
-    this.nome = nome;
     this.cargo = cargo;
     this.salario = salario;
-    this.dizOi = function(_)
 }
 
 const pessoa1 = new Pessoa("Maria")

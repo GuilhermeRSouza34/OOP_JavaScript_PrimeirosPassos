@@ -75,3 +75,6 @@ console.log(pessoa .ehMaiorDeIdade);
 console.log(pessoa .conhecimentos);
 console.log(pessoa .pessoa);
 console.log(pessoa .carro1);
+
+console.log(Object.keys(pessoa).length);
+console.log(Object.values(pessoa));

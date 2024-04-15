@@ -55,3 +55,19 @@ console.log(pessoa .carro1);
 
 console.log(carro1 instanceof carro)
 console.log(conhecimentos instanceof Array)
+
+function exibirAtributo(nomeAtributo) {
+    console.log(pessoa[nomeAtributo])
+}
+
+exibirAtributo('nome');
+
+pessoa['sobrenome'] = null;
+
+if (pessoa['sobrenome']) {
+    console.log("A pessoa tem um sobrenome")
+}
+
+if ('sobrenome' in pessoa) {
+    console.log("tem um sobrenome")
+}

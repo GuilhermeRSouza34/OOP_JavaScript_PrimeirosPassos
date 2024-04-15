@@ -46,13 +46,6 @@ const pessoa = {
     conhecimentos: conhecimentos
 }
 
-console.log(pessoa .nome);
-console.log(pessoa .idade);
-console.log(pessoa .ehMaiorDeIdade);
-console.log(pessoa .conhecimentos);
-console.log(pessoa .pessoa);
-console.log(pessoa .carro1);
-
 console.log(carro1 instanceof carro)
 console.log(conhecimentos instanceof Array)
 
@@ -71,3 +64,10 @@ if (pessoa['sobrenome']) {
 if ('sobrenome' in pessoa) {
     console.log("tem um sobrenome")
 }
+
+console.log(pessoa .nome);
+console.log(pessoa .idade);
+console.log(pessoa .ehMaiorDeIdade);
+console.log(pessoa .conhecimentos);
+console.log(pessoa .pessoa);
+console.log(pessoa .carro1);

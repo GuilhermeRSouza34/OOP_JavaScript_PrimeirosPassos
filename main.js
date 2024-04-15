@@ -55,7 +55,11 @@ function exibirAtributo(nomeAtributo) {
 
 exibirAtributo('nome');
 
-pessoa['sobrenome'] = null;
+pessoa['sobrenome'] = undefined;
+
+Object.freeze(pessoa);
+
+pessoa.nome = "Joao";
 
 if (pessoa['sobrenome']) {
     console.log("A pessoa tem um sobrenome")

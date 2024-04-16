@@ -10,7 +10,16 @@ function Pessoa(nome) {
 
 function Funcionario(nome, cargo, salario) {
     this.cargo = cargo;
-    let _salario = 0;
+    // this.salario = salario;
+    let _salario = salario;
+
+    this.retornaSalario = function() {
+        return _salario;
+    }
+    
+    this.dizCargo = function() {
+        console.log(this.cargo);
+    }
 
     Pessoa.call(this, nome)
 }
@@ -21,4 +30,4 @@ const pessoa = new Pessoa("Guilherme");
 Funcionario1.dizOi();
 Funcionario1.dizCargo();
 
-console.log(Funcionario1)
+console.log(Funcionario1.retornaSalario())

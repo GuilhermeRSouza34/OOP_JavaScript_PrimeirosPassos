@@ -50,3 +50,4 @@ const Funcionario1 = new Funcionario("Maria", "Dev-Front-End", 5000);
 //console.log(Funcionario1.getSalario())
 
 Funcionario1.aumento();
+console.log(Funcionario1.getSalario())

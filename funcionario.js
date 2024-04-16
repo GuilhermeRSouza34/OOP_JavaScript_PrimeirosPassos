@@ -17,4 +17,10 @@ function Funcionario(nome, cargo, salario) {
 }
 
 const Funcionario1 = new Funcionario("Maria", "Dev-Front-End", 5000);
+const pessoa = new Pessoa("Guilherme");
+
 Funcionario1.dizOi();
+Funcionario1.dizCargo();
+
+Funcionario1.salario = "mil"
+console.log(Funcionario1)

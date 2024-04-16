@@ -26,6 +26,10 @@ function Funcionario(nome, cargo, salario) {
         }
     }
 
+    this.aumento = function() {
+        const novoSalario = _salario * 1.1;
+    }
+
     this.dizCargo = function() {
         console.log(this.cargo);
     }

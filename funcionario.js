@@ -10,8 +10,7 @@ function Pessoa(nome) {
 
 function Funcionario(nome, cargo, salario) {
     this.cargo = cargo;
-    this.salario = salario;
-    let salario = 0;
+    let _salario = 0;
 
     Pessoa.call(this, nome)
 }
@@ -22,5 +21,4 @@ const pessoa = new Pessoa("Guilherme");
 Funcionario1.dizOi();
 Funcionario1.dizCargo();
 
-Funcionario1.salario = "mil"
 console.log(Funcionario1)

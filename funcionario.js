@@ -28,6 +28,7 @@ function Funcionario(nome, cargo, salario) {
 
     this.aumento = function() {
         const novoSalario = _salario * 1.1;
+
         console.log(novoSalario);
         _salario = novoSalario;
     }
@@ -39,7 +40,21 @@ function Funcionario(nome, cargo, salario) {
     Pessoa.call(this, nome)
 }
 
+function Gestor(nome) {
+    Funcionario.call(this, nome, "Gestor", 6000);
+
+    this.aumento = function() {
+        const novoSalario = _salario * 1.07;
+
+        console.log(novoSalario);
+        _salario = novoSalario;
+    }
+
+}
+
 const Funcionario1 = new Funcionario("Maria", "Dev-Front-End", 5000);
+const Funcionario2 = new Funcionario("Pedro", "Gestor", 6000);
+
 //const pessoa = new Pessoa("Guilherme");
 
 //Funcionario1.dizOi();
@@ -51,3 +66,6 @@ const Funcionario1 = new Funcionario("Maria", "Dev-Front-End", 5000);
 
 Funcionario1.aumento();
 console.log(Funcionario1.getSalario())
+
+Funcionario2.aumento();
+console.log(Funcionario2.getSalario())
